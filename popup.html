@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS_styles/popup.css" />
+    <title>Timothy Video Recorder</title>
+  </head>
+  <body>
+ 
+    <div class="popup-general-container">
+      <div class="popup-container">
+        <div class="helpout-container">
+          <div class="icon_container">
+            <img src="/images/iCON 7 1.svg" alt="icon" />
+            <h2>HelpMeOut</h2>
+          </div>
+          <div class="settings">
+            <img src="/images/icons8-settings.gif" alt="settings icon" />
+            <img src="/images/close-circle.svg" alt="close icon" />
+          </div>
+        </div>
+        <p class="content">
+          This extention helps you record and help you share videos with ease.
+        </p>
+        <div class="screen-icon-section">
+          <div class="full-screen">
+            <div class="screen-icon">
+              <img src="/images/monitor.svg" alt="monitor" />
+            </div>
+            <p>Full Screen</p>
+          </div>
+          <div class="tab">
+            <div class="screen-icon">
+              <img src="/images/tab.svg" alt="tab icon" />
+            </div>
+            <p>Current Tab</p>
+          </div>
+        </div>
+
+        <div class="recording section">
+          <div class="recording-icon">
+            <div class="camera">
+              <img src="/images/video-camera.svg" alt="video-camera" width="35" />
+              <p>Camera</p>
+            </div>
+            <input type="checkbox" />
+          </div>
+          <div class="recording-icon">
+            <div class="microphone">
+                <img src="/images/microphone.svg" alt="microphone" width="35" />
+            <p>Audio</p>
+            </div>
+            
+            <input type="checkbox" />
+          </div>
+        </div>
+        <button class=".start-btn" id="start_record">Start Recording</button>
+    </div>
+    <button class=".start-btn" id="stop_record">Stop Recording</button>
+  </div>
+      </div>
+    </div>
+
+    <!-- <div class="recording-section">
+        <div class="avatar">
+            <img src="/images/avatar.svg" alt="image" class="avatar-img">
+        </div>
+        <div class="recording-container">
+            <p>00:03:45</p>
+            <div class="time-icons">
+                <img src="images/icons8-pause-16.png" alt="">
+                <img src="images/stop.svg" alt="">
+                <img src="/images/video-cam.svg" alt="">
+                <img src="/images/microphone.svg" alt="">
+                <img src="/images/trash.svg" alt="">
+            </div>
+        </div>
+    </div> -->
+
+    <div class="recording-message" style="display: none;">
+        Heyyy, video is recording!
+      </div>
+
+    <script src="./js/popup.js"></script>
+  </body>
+</html>
